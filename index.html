@@ -6,8 +6,8 @@
 <!--     this tag makes the app responsive -->
     <title>Simple Todo</title>
 
-    <script src="/bower_components/angular/angular.js"></script>
-    <script src="/bower_components/angular-route/angular-route.js"></script>
+    <script src="public/bower_components/angular/angular.js"></script>
+    <script src="public/bower_components/angular-route/angular-route.js"></script>
     <script src="public/javascripts/app.js"></script>
   </head>
 
@@ -28,7 +28,8 @@
           {{todo.content}}
         </div>
         <div>
-          <button ng-click="delete()">Delete</button><button ng-click="edit()">Edit</button>
+          <button ng-click="delete()">Delete</button>
+          <!-- <button ng-click="edit()">Edit</button> -->
         </div>
       </div>
 
